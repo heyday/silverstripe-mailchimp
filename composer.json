@@ -1,7 +1,8 @@
 {
-    "name": "drewm/mailchimp-api",
-    "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
-    "license": "MIT",
+    "name": "heyday/silverstripe-mailchimp",
+    "description": "Copy of drewm/mailchimp-api and modified to work on SSL env.",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/heyday/silverstripe-mailchimp",
     "require": {
         "php": ">=5.3"
     },
@@ -14,13 +15,11 @@
             "DrewM\\MailChimp\\": "src"
         }
     },
-    "homepage": "https://github.com/drewm/mailchimp-api",
+    "homepage": "https://github.com/heyday/silverstripe-mailchimp",
     "authors": [ 
         {
-            "name": "Drew McLellan",
-            "email": "drew.mclellan@gmail.com",
-            "homepage": "http://allinthehead.com/"
-
+            "name": "Clement Tartar",
+            "email": "clement.tartar@heyday.co.nz"
         }
     ]
 
